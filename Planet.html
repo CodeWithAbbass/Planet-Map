@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planet</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: black;
+      margin: auto;
+      text-align-last: center;
+      align-items: center;
+    }
+
+    .box {
+      background-color: black;
+      padding-top: 0px;
+      /* border: 2px solid white; */
+    }
+
+    /* *****************************************************
+    *****************************************************
+    ***************************************************** */
+
+    @import url(https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap);
+
+    @keyframes bounce {
+
+      0%,
+      20%,
+      50%,
+      80%,
+      to {
+        transform: translateZ(-2px) translateY(5px)
+      }
+
+      40% {
+        transform: rotateY(180deg) translateZ(-2px) translateY(-35px)
+      }
+
+      60% {
+        transform: translateZ(-2px) translateY(-25px)
+      }
+    }
+
+    ;
+
+    body {
+      background: radial-gradient(circle at center, #1a1546, #040411 40%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      width: 100%;
+      perspective: 1000px;
+    }
+
+    h3 {
+      font-size: 3.5rem;
+      line-height: 80%;
+      transform: rotateX(0) rotateY(-25deg);
+      text-transform: uppercase;
+      width: 500px;
+      text-align: center;
+      color: #b9dfff;
+      color: #fff;
+      font-family: "Zefani";
+      font-family: 'Abril Fatface';
+      margin: 0rem auto;
+      position: relative;
+      padding: 1rem 0 9rem;
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff, 0 0 35px #228dff, 0 0 40px #228dff;
+
+      /* 
+      span{
+        display: inline-block;
+      }
+      span:first-child {
+        transform: translateZ(10px);
+      }
+
+      span:nth-child(2) {
+        transform: translateZ(5px);
+      }
+
+      span:nth-child(3) {
+        transform: translateZ(8px);
+      }
+
+      span:nth-child(4) {
+        transform: translateZ(20px);
+      }
+
+      span:nth-child(5) {
+        transform: translateZ(6px);
+      }
+
+      span:nth-child(6) {
+        transform: translateZ(20px);
+      }
+      
+      */
+
+    }
+
+    .scroll-more {
+      color: white;
+      text-align: center;
+      width: 450px;
+      position: absolute;
+      bottom: 10rem;
+      left: calc(50% - 225px);
+      margin: 0 auto;
+      font-size: 25rem;
+      opacity: 1;
+      transition: opacity .3s ease;
+      font-family: monospace;
+      pointer-events: none;
+      z-index: -1;
+      transform-origin: center;
+      -webkit-animation: bounce 3s cubic-bezier(.37, 0, .21, 1.02) infinite, fonts 5s linear infinite;
+      animation: bounce 3s cubic-bezier(.37, 0, .21, 1.02) infinite, fonts 5s linear infinite;
+    }
+
+  </style>
+</head>
+
+<body>
+
+
+  <div class="box">
+    <h3>
+      <span>Click</span>
+      <span> on</span>
+      <span> Any</span>
+      <span> one</span>
+      <span> of</span>
+      <span> the</span>
+      <span> Planet</span>
+      <br>
+      <span> to</span>
+      <span> See</span>
+      <span> Details</span>
+      <div class="scroll-more">↓</div>
+    </h3>
+
+    <img
+      src="https://i.chzbgr.com/full/9407493120/h281DDAE7/17h-14m-e-283-16h-saturn-uranus-neptune-jupiter-james-odonoghue-nasa-tophysics-10-jamesikesspace"
+      alt="Galaxy" usemap="#universe" width="800px" height="auto">
+
+    <map name="universe">
+      <!-- **********************
+                        1st Row
+                ************************* -->
+      <area shape="circle" coords="110,92,55"
+        href="https://thumbs.gfycat.com/ImpassionedImpeccableHydatidtapeworm-size_restricted.gif" alt="" target="_blank"
+        title="Click me to See Mercury info">
+
+      <area shape="circle" coords="300,92,55"
+        href="https://www.myconfinedspace.com/wp-content/uploads/2014/12/Venus.gif" alt="" target="_blank"
+        title="Click me to See Venus info">
+
+      <area shape="circle" coords="500,92,55"
+        href="https://bestanimations.com/media/earth/1208339188earth-stats-gif.gif" alt="" target="_blank"
+        title="Click me to See Earth info">
+
+      <area shape="circle" coords="688,92,55" href="https://i.gifer.com/Usvw.gif" alt="" target="_blank"
+        title="Click me to See Mars info">
+
+      <!-- **********************
+                        2nd Row
+                ************************* -->
+
+
+
+
+      <area shape="circle" coords="110,285,55" href="https://i.gifer.com/TLHu.gif" target="_blank" alt=""
+        title="Click me to See Jupiter info">
+
+      <area shape="circle" coords="300,285,55" href="https://i.gifer.com/SB9X.gif" alt="" target="_blank"
+        title="Click me to See Saturn info">
+
+      <area shape="circle" coords="500,285,55" href="https://i.gifer.com/IvB.gif" alt="" target="_blank"
+        title="Click me to See Uranus info">
+
+      <area shape="circle" coords="688,285,55" href="https://i.gifer.com/1449.gif" alt="" target="_blank"
+        title="Click me to See Neptune info">
+
+    </map>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
